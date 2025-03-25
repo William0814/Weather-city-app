@@ -5,6 +5,7 @@ import plotly.express as px
 from functions import get_data
 
 
+st.set_page_config(page_title="Weather Page", page_icon="images/cloudy.png")
 st.title("Weather :blue[Forecast for the Days]")
 
 place = st.text_input("Place:", placeholder="Enter a city")
